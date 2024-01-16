@@ -10,7 +10,7 @@
 #	* 经典组合 [Website(caddy+php7+sqlite3+tls)+V2ray(vmess+websocket)]use_path+Rinetdbbr
 #	* 推荐系统：Debian 8 （建议选择mini版）
 #	* 开源地址：https://github.com/dylanbai8/Onekey_Caddy_PHP7_Sqlite3
-#	Blog: https://oo0.bid
+
 #====================================================
 
 #定义文字颜色
@@ -69,17 +69,17 @@ source /etc/os-release
 wwwroot="/www"
 
 # https://github.com/typecho/typecho/releases
-typecho_path="https://github.com/typecho/typecho/releases/download/v1.1-17.10.30-release/1.1.17.10.30.-release.tar.gz"
+typecho_path="https://github.com/typecho/typecho/archive/refs/tags/v1.3.0-alpha.tar.gz"
 
 # https://github.com/kalcaddle/KodExplorer/releases
-kodcloud_path="https://github.com/kalcaddle/KodExplorer/archive/4.35.tar.gz"
+kodcloud_path="https://github.com/kalcaddle/KodExplorer/archive/refs/tags/4.52.01.tar.gz"
 
 wordpress_path="https://wordpress.org/latest.tar.gz"
 # https://github.com/jumpstarter-io/wp-sqlite-integration
 wordpress_sqlite="https://downloads.wordpress.org/plugin/sqlite-integration.1.8.1.zip"
 
 # https://github.com/zblogcn/zblogphp/releases
-zblog_path="https://github.com/zblogcn/zblogphp/archive/1740.tar.gz"
+zblog_path="https://github.com/zblogcn/zblogphp/archive/refs/tags/v1.7.3-3230.tar.gz"
 
 # https://github.com/Laverna/static-laverna
 laverna_path="https://github.com/Laverna/static-laverna/archive/gh-pages.zip"
